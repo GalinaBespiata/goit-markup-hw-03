@@ -18,7 +18,7 @@ body{
 .list,
 .filter,
 .gallery,
-.list-сontact {
+.list-contact {
     list-style: none;
 }
 .list .link.current {
@@ -175,4 +175,3 @@ text-align: center;
 .communication {
     font-style: normal;
 }
-
