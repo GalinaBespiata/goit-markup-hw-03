@@ -55,6 +55,9 @@ img {
   outline: 1px solid red;
   outline-offset: -2px;
 }
+.container.nav {
+  display: flex;
+}
 .list,
 .filter,
 .gallery,
@@ -224,6 +227,9 @@ img {
   text-transform: uppercase;
     margin-bottom: 10px;
 }
+.section.team {
+  text-align: center;
+}
 .name.team {
   font-size: 16px;
   font-weight: 500;
@@ -262,8 +268,12 @@ img {
 .communication {
   font-style: normal;
 }
+.link.cellar {
+  display: block;
+}
 .container.brand,
-.container.adress,
-.container.mail {
+.container.adress {
   margin-bottom: 20px;
 }
+
+
