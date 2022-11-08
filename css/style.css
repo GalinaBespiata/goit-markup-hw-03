@@ -113,7 +113,8 @@ img {
   background-color: var(--dark-bacground-color);
   color: var(--minor-text-color);
   min-height: 600px;
-  padding-top: 180px;
+  padding-top: 200px;
+  padding-bottom: 280px;
 }
 .slogan-text {
   margin-top: 0;
@@ -125,7 +126,14 @@ img {
   letter-spacing: 0.06em;
   text-align: center;
   text-transform: uppercase;
-  
+}
+.section.advantages { 
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section.work,
+.section.team {
+  padding-bottom: 94px;
 }
 .button.primary {
   background-color: var(--color-accent);
@@ -185,6 +193,11 @@ img {
   letter-spacing: 0.03em;
   text-align: center;
 }
+.title.hidden {
+  display: none;
+}
+
+
 .section-text,
 .gallery-text {
   color: var(--minor-text-color);
@@ -208,9 +221,10 @@ img {
   letter-spacing: 0.03em;
 }
 .heading {
-    text-transform: uppercase;
+  text-transform: uppercase;
+    margin-bottom: 10px;
 }
-.heading.team {
+.name.team {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.17;
@@ -232,6 +246,7 @@ img {
   line-height: 1.71;
   letter-spacing: 0.03em;
   font-weight: 400;
+  padding: 60px;
 }
 .cellar .link {
   color: rgba(117, 117, 117, 1);
@@ -246,4 +261,9 @@ img {
 }
 .communication {
   font-style: normal;
+}
+.container.brand,
+.container.adress,
+.container.mail {
+  margin-bottom: 20px;
 }
