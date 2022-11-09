@@ -55,8 +55,23 @@ img {
   outline: 1px solid red;
   outline-offset: -2px;
 }
-.container.nav {
+.container-header {
   display: flex;
+  align-items: center;
+}
+.container-nav {
+  display: flex;
+
+}
+.header {
+  border-bottom: 1px solid #ECECEC;
+}
+.list.nav,
+.list-сontact.nav {
+  display: flex;
+}
+.link.nav {
+  margin-right: 51px;
 }
 .list,
 .filter,
@@ -267,13 +282,17 @@ img {
 }
 .communication {
   font-style: normal;
+  
 }
 .link.cellar {
   display: block;
 }
-.container.brand,
-.container.adress {
-  margin-bottom: 20px;
+.list-сontact {
+  margin-bottom: 9px;
+}
+.container.brand {
+  .padding: 60px 0;
+  
 }
 
 
