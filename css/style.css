@@ -127,8 +127,11 @@ gap: 50px;
 .notpodcherk {
   text-decoration: none;
   display: block;
-  margin-bottom: 20px;
-  
+}
+.container-nav>.notpodcherk {
+  margin-right: 93px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 .logo {
   color: var(--color-accent);
@@ -166,7 +169,6 @@ gap: 50px;
   align-items: flex-start;
 }
 .section-list {
-  padding-top: 94px;
   display: flex;
   align-items: center;
 }
@@ -330,4 +332,6 @@ gap: 30px;
 .link.mail {
   margin-bottom: 20px;
 }
-
+.container-brand>.notpodcherk {
+  margin-bottom: 20px;
+}
