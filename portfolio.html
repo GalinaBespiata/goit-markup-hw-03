@@ -15,34 +15,30 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <!--Main navigation-->
-      <nav>
-        <a class="notpodcherk" href="./index.html"
-          ><span class="logo">Web</span
-          ><span class="logo-accent">Studio</span></a
-        >
+      <div class="container container-header">
+      <nav class="container-nav">
+        <a class="notpodcherk " href="./index.html"><span class="logo">Web</span><span class="logo-accent">Studio</span></a>
         <!--Links to other pages of the curent site-->
-        <ul class="list">
-          <li><a class="link" href="./index.html">Студія</a></li>
-          <li><a class="link current" href="">Портфоліо</a></li>
-          <li><a class="link" href="">Контакти</a></li>
-        </ul>
-      </nav>
-      <ul class="list-сontact">
-        <li>
-          <a class="link" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
+        <ul class="list nav">
+          <li><a class="link current nav" href="">Студія</a></li>
+          <li><a class="link nav" href="./portfolio.html">Портфоліо</a></li>
+          <li><a class="link nav" href="">Контакти</a></li>
+      </ul>
+        </nav>
+      <ul class="list-сontact nav">
+        <li><a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
         <li><a class="link" href="tel:+380961111111">+38 096 111 11 11</a></li>
       </ul>
+    </div>
     </header>
     <!--unique content of curent page-->
     <main>
       <section class="main-section">
-        <h2>Наші роботи</h2>
-        <ul class="filter">
+        <div class="container">
+        <h2 class="title hidden">Наші роботи</h2>
+        <ul class="filter container-button"">
           <li><button class="button-secondary all" type="button">Усі</button></li>
           <li>
             <button class="button-secondary" type="button">Веб-сайти</button>
@@ -56,6 +52,7 @@
           <li>
             <button class="button-secondary" type="button">Маркетинг</button>
           </li>
+        
         </ul>
         <ul class="gallery">
           <li>
@@ -149,28 +146,25 @@
               <p class="gallery-text">Додаток</p></a
             >
           </li>
+        </div>
         </ul>
       </section>
     </main>
     <footer class="cellar">
-      <a class="notpodcherk" href="./index.html"
-        ><span class="logo">Web</span><span class="accent">Studio</span></a
-      >
-      <address class="communication">
-        <p>м. Київ, пр-т Лесі Українки, 26</p>
+      <div class="container container-brand">
+      <a class="notpodcherk" href="./index.html"><span class="logo">Web</span><span class="accent">Studio</span></a>
+        <address class="communication">
+        <p class="location">м. Київ, пр-т Лесі Українки, 26</p>
         <ul class="list-сontact">
+            <li class="link-contact">
+            <a class="link cellar mail" href="mailto:info@devstudio.com">info@devstudio.com</a>
+         </li>
           <li>
-            <a class="link cellar" href="mailto:info@devstudio.com"
-              >info@devstudio.com</a
-            >
-          </li>
-          <li>
-            <a class="link cellar" href="tel:+380961111111"
-              >+38 096 111 11 11</a
-            >
+            <a class="link cellar" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </address>
+      </div>
     </footer>
   </body>
 </html>
